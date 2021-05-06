@@ -52,6 +52,7 @@ def page_title_add(url:str)->list:
     title=np.array(title)
     return title
 
+
 if __name__ == '__main__':
     
     ray.init(log_to_driver = False)
